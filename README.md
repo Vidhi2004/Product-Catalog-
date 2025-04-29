@@ -75,9 +75,9 @@ Product-Catalog-/
 - **JavaScript**: Programming language to add interactivity and dynamic behavior.
 
 
-  👥 Team
-Vidhi Dattatraya Kamat
 
+👥 Team
+Vidhi Dattatraya Kamat
 Fathima Kohnain
 
 ---
