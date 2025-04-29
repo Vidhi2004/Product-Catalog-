@@ -64,7 +64,6 @@ Product-Catalog-/
 ├── index.html       # Main HTML file
 ├── styles.css       # Styling for the application
 ├── script.js        # JavaScript functionality
-└── images/          # Folder to store screenshots or product images
 ```
 
 ---
