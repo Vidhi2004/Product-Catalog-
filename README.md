@@ -1,4 +1,3 @@
-Here’s the updated `README.md` with the **Mobile View** removed and only the **Desktop View** retained in the Web Preview section:
 
 ---
 
