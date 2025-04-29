@@ -74,11 +74,12 @@ Product-Catalog-/
 - **CSS3**: Styling language for designing the application.  
 - **JavaScript**: Programming language to add interactivity and dynamic behavior.
 
+---
 
-
-👥 Team
-Vidhi Dattatraya Kamat
-Fathima Kohnain
+## 👥 Team  
+- **Vidhi Dattatraya Kamat**  
+- **Fathima Kohnain**
 
 ---
+
 
