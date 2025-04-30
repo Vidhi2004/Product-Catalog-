@@ -5,6 +5,8 @@
 
 An interactive and stylish Product Catalog built using HTML, CSS, and JavaScript. This application dynamically displays products and supports "Add to Cart" functionality with visual effects.
 
+🔗 **Repository:** 🔗 https://github.com/Vidhi2004/Product-Catalog-
+
 ---
 
 ## 🌐 Web Preview
@@ -76,10 +78,6 @@ Product-Catalog-/
 
 ---
 
-## 👥 Team  
-- **Vidhi Dattatraya Kamat**  
-- **Fathima Kohnain**
 
----
 
 
