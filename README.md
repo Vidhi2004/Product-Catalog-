@@ -22,7 +22,6 @@ An interactive and stylish Product Catalog built using HTML, CSS, and JavaScript
 - [Features](#features)  
 - [Web Preview](#web-preview)  
 - [Installation](#installation)  
-- [Usage](#usage)  
 - [Project Structure](#project-structure)  
 - [Technologies Used](#technologies-used)  
 
