@@ -14,13 +14,11 @@ An interactive and stylish Product Catalog built using HTML, CSS, and JavaScript
 
 
 
-
 ---
 
 ## 📋 Table of Contents
 
 - [Features](#features)  
-- [Web Preview](#web-preview)  
 - [Installation](#installation)  
 - [Project Structure](#project-structure)  
 - [Technologies Used](#technologies-used)  
