@@ -91,17 +91,14 @@ button:hover {
     }
 }
 
-/* Canvas */
-.canvas-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+/* Cart Info */
+#cart-info {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
 }
 
-#myCanvas {
-    display: block;
-    border: 2px solid #333;
-    border-radius: 10px;
-    background: linear-gradient(to bottom right, #f0f0f0, #e0e0e0);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+.dark-mode #cart-info {
+    color: #eee;
 }

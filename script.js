@@ -21,18 +21,23 @@ products.forEach(product => {
     card.classList.add('product-card');
 
     card.innerHTML = `
-      <img src="${product.image}" alt="${product.title}">
-      <h2>${product.title}</h2>
-      <p>₹${product.price}</p>
-      <button onclick="addToCart('${product.title}')">Add to Cart</button>
+        <img src="${product.image}" alt="${product.title}">
+        <h2>${product.title}</h2>
+        <p>₹${product.price}</p>
+        <button onclick="addToCart('${product.title}')">Add to Cart</button>
     `;
 
     container.appendChild(card);
 });
 
-// Step 4: Function to handle "Add to Cart" button click
+// Step 4: Add to Cart logic
+let cart = [];
+const cartCount = document.getElementById('cart-count');
+
 function addToCart(productName) {
-    alert(`${productName} added!`);
+    cart.push(productName);
+    cartCount.textContent = cart.length;
+    alert(`${productName} added to cart!`);
 }
 
 // Step 5: Dark Mode Toggle
@@ -40,30 +45,3 @@ const toggleButton = document.getElementById('dark-mode-toggle');
 toggleButton.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
 });
-
-// Step 6: Draw on Canvas
-const canvas = document.getElementById('myCanvas');
-const ctx = canvas.getContext('2d');
-
-// Rounded Rectangle
-ctx.fillStyle = '#a0d9e6';
-ctx.beginPath();
-ctx.moveTo(20, 20);
-ctx.lineTo(120, 20);
-ctx.quadraticCurveTo(130, 20, 130, 30);
-ctx.lineTo(130, 60);
-ctx.quadraticCurveTo(130, 70, 120, 70);
-ctx.lineTo(20, 70);
-ctx.quadraticCurveTo(10, 70, 10, 60);
-ctx.lineTo(10, 30);
-ctx.quadraticCurveTo(10, 20, 20, 20);
-ctx.fill();
-
-// Glowing Circle
-ctx.beginPath();
-ctx.arc(220, 100, 30, 0, Math.PI * 2);
-ctx.fillStyle = 'rgba(255, 105, 180, 0.8)';
-ctx.shadowColor = 'hotpink';
-ctx.shadowBlur = 15;
-ctx.fill();
-ctx.shadowBlur = 0; // reset
