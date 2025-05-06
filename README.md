@@ -1,19 +1,14 @@
+# 🛍️ TechieCart - Product Catalog
 
----
+A simple, interactive product catalog for tech products built with HTML, CSS, and JavaScript.
 
-# 🛍️ Product Catalog!
+## 📱 Preview
 
-An interactive and stylish Product Catalog built using HTML, CSS, and JavaScript. This application dynamically displays products and supports "Add to Cart" functionality with visual effects.
+### Light Mode
+![Light Mode Preview](images/light_mode.png)
 
----
-
-## 🌐 Web Preview
-
-![WhatsApp Image 2025-04-29 at 19 47 42_d326d217](https://github.com/user-attachments/assets/036dee98-15de-4146-ab4f-07a3082ee1ef)
-![WhatsApp Image 2025-04-29 at 19 47 24_e4cf6c22](https://github.com/user-attachments/assets/2405dc2f-938b-4fb7-8fec-b7deb74ec8ae)
-
-
-
+### Dark Mode
+![Dark Mode Preview](images/dark_mode.png)
 ---
 
 ## 📋 Table of Contents
@@ -72,7 +67,8 @@ Product-Catalog-/
 - **JavaScript**: Programming language to add interactivity and dynamic behavior.
 
 ---
+## 💫 What This Project Does
 
-
-
-
+- Shows a collection of tech products with images, names and prices
+- Lets users add items to a shopping cart
+- Features a dark/light mode toggle
