@@ -67,8 +67,3 @@ Product-Catalog-/
 - **JavaScript**: Programming language to add interactivity and dynamic behavior.
 
 ---
-## 💫 What This Project Does
-
-- Shows a collection of tech products with images, names and prices
-- Lets users add items to a shopping cart
-- Features a dark/light mode toggle
